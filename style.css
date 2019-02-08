@@ -92,3 +92,99 @@
 a:hover{
   color:#DF4AF9;
 }
+@@media only screen and (max-width:300px) {
+  #top{
+    background-color: #5D6D7E;
+    height:10px;
+    border-radius: 5px;
+    position: fixed;
+    width: 100%;
+  }
+  #top>ul>li{
+    display:inline-block;
+    padding-left: 100px;
+  }
+  #top>ul>li>a {
+    text-decoration: none;
+    color:#D0D3D4;
+  }
+  #top>ul {
+    padding-left: 350px;
+    opacity: 0.6;
+    padding-top: 4px;
+  }
+  #navbar{
+    background-image: url("https://bigboomdesign.com/wp-content/uploads/ClientPortfolioBackground1.jpg");
+    height:250px;
+    width: 100%;
+  }
+  #navbar>img {
+    border-radius: 100px;
+    height:150px;
+  }
+  .title{
+    float: right;
+    font-size: 40px;
+    font-family: Pacifico;
+    padding-right: 20px;
+  }
+  .details >ol>li>em>a {
+    text-decoration: none;
+  }
+  #projects{
+    background-image: url("https://cdn.suwalls.com/wallpapers/abstract/blue-blurry-shades-51093-1920x1200.jpg");
+    height: 300px;
+  }
+  #projects>center>h3 {
+    font-size: 30px;
+    color: #F8F9F9;
+    padding-top: 7px;
+  }
+  #columns {
+    display: flex;
+    padding-left: 200px;
+  }
+  .cl {
+    width:350px;
+    background-color: #ffffff;
+    opacity: 0.5;
+    padding-left: 23px;
+    height: 150px;
+  }
+  .skill {
+    width:350px;
+    background-color: #D4E6F1;
+    opacity: 0.5;
+    padding-left: 23px;
+    height: 150px;
+  }
+  #aboutme {
+    display: flex;
+    justify-content: space-around;
+    background-color: #B3B6B7;
+  }
+  .one {
+    background-color: #AED6F1;
+    height: 80px;
+    width: 400px;
+    padding-left: 10px;
+  }
+  .two{
+    background-color: #FEF8C3;
+    height: 80px;
+    width: 400px;
+    padding-left: 10px;
+  }.three {
+    background-color: #FAE4F3;
+    height: 80px;
+    width: 400px;
+    padding-left: 10px;
+  }
+  .email {
+    text-decoration: none;
+    color:#24A75E;
+  }
+  a:hover{
+    color:#DF4AF9;
+  }
+}
