@@ -1,7 +1,8 @@
 #top{
   background-color: #5D6D7E;
-  height:30px;
+  height:50px;
   border-radius: 20px;
+  width: 100%;
 }
 #top>ul>li{
   display: inline-block;
@@ -19,6 +20,7 @@
 #navbar{
   background-color: #515A5A;
   height:400px;
+  width: 100%;
 }
 #navbar>img {
   border-radius: 100px;
@@ -32,4 +34,31 @@
 }
 .details >ol>li>em>a {
   text-decoration: none;
+}
+#projects{
+  background-image: url("https://cdn.suwalls.com/wallpapers/abstract/blue-blurry-shades-51093-1920x1200.jpg");
+  height: 300px;
+}
+#projects>center>h3 {
+  font-size: 30px;
+  color: #F8F9F9;
+  padding-top: 7px;
+}
+#columns {
+  display: flex;
+  padding-left: 200px;
+}
+.cl {
+  width:350px;
+  background-color: #ffffff;
+  opacity: 0.5;
+  padding-left: 23px;
+  height: 150px;
+}
+.skill {
+  width:350px;
+  background-color: #D4E6F1;
+  opacity: 0.5;
+  padding-left: 23px;
+  height: 150px;
 }
