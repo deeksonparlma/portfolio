@@ -22,5 +22,8 @@
 }
 #navbar>img {
   border-radius: 80px;
-  
+}
+#navbar>p{
+  float: right;
+  font-size: 40px;
 }
