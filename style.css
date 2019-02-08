@@ -20,3 +20,6 @@
   background-color: #515A5A;
   height:400px;
 }
+#navbar>img {
+  border-radius: 70px;
+}
