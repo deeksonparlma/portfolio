@@ -20,8 +20,7 @@
 @media screen  and (max-width:800px){
   #top>ul>li{
     display: block;
-    border-style: 2px solid;
-    padding-left: 200px;
+    padding-left: 50px;
   }
 }
 @media screen  and (min-width:800px){
