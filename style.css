@@ -1,0 +1,22 @@
+#top{
+  background-color: #5D6D7E;
+  height:30px;
+  border-radius: 20px;
+}
+#top>ul>li{
+  display: inline-block;
+  padding-left: 100px;
+}
+#top>ul>li>a {
+  text-decoration: none;
+  color:#D0D3D4;
+}
+#top>ul {
+  padding-left: 350px;
+  opacity: 0.6;
+  padding-top: 4px;
+}
+#navbar{
+  background-color: #515A5A;
+  height:400px;
+}
