@@ -65,4 +65,23 @@
 }
 #aboutme {
   display: flex;
+  justify-content: space-around;
+  background-color: #B3B6B7;
+}
+.one {
+  background-color: #AED6F1;
+  height: 600px;
+  width: 400px;
+  padding-left: 10px;
+}
+.two{
+  background-color: #FEF8C3;
+  height: 600px;
+  width: 400px;
+  padding-left: 10px;
+}.three {
+  background-color: #FAE4F3;
+  height: 600px;
+  width: 400px;
+  padding-left: 10px;
 }
