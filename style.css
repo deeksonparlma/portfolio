@@ -19,8 +19,8 @@
   padding-top: 4px;
 }
 #navbar{
-  background-color: #515A5A;
-  height:400px;
+  background-image: url("https://bigboomdesign.com/wp-content/uploads/ClientPortfolioBackground1.jpg");
+  height:250px;
   width: 100%;
 }
 #navbar>img {
