@@ -1,6 +1,6 @@
 # My Portfolio
-#### {This is a websie that contains my details}, {Friday 8th February,Vrsn 1.0}
-#### By **{Dickson Nyaigoti}**
+#### Programming landing page, {Friday 8th February,Vrsn 1.0}
+#### By **Dickson Nyaigoti**
 ## Description
 github repository :https://github.com/deeksonparlma/portfolio
 gh-page :https://deeksonparlma.github.io/portfolio
