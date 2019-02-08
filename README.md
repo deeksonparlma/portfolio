@@ -1,5 +1,5 @@
 # My Portfolio
-#### Programming landing page, {Friday 8th February,Vrsn 1.0}
+#### Programming landing page, Friday 8th February,Vrsn 1.0
 #### By **Dickson Nyaigoti**
 ## Description
 github repository :https://github.com/deeksonparlma/portfolio
