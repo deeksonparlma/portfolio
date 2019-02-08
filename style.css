@@ -25,7 +25,7 @@
 }
 #navbar>img {
   border-radius: 100px;
-  height:200px;
+  height:150px;
 }
 .title{
   float: right;
@@ -84,4 +84,11 @@
   height: 80px;
   width: 400px;
   padding-left: 10px;
+}
+.email {
+  text-decoration: none;
+  color:#24A75E;
+}
+a:hover{
+  color:#DF4AF9;
 }
