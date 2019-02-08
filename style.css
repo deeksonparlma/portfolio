@@ -2,6 +2,7 @@
   background-color: #5D6D7E;
   height:50px;
   border-radius: 20px;
+  position: fixed;
   width: 100%;
 }
 #top>ul>li{
