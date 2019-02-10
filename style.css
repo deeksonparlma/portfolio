@@ -30,7 +30,7 @@
     padding-left: 200px;
   }
 }
-#top>ul>li>a {
+.link {
   text-decoration: none;
   color:#D0D3D4;
 }
