@@ -64,13 +64,13 @@
 }
 
 @media screen  and (max-width:800px){
-#navbar>img {
+.profile {
   border-radius: 100px;
   height:100px;
 }
 }
 @media screen and (min-width:800px){
-#navbar>img {
+.profile {
   border-radius: 100px;
   height:150px;
 }
