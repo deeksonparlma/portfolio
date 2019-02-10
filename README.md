@@ -20,4 +20,4 @@ There are no bugs at the moment but if you encounter any kindly reach me via my 
 email :dicksonparlma@gmail.com
 ### License
 *MIT licence*
-Copyright (c) {2019} **Dickson Nyaigoti**
+Copyright (c) 2019 **Dickson Nyaigoti**
