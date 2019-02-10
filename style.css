@@ -249,5 +249,17 @@ a:hover{
     height: 70px;
     font-size:15px;
     background-color: #2F3432;
+    display: flex;
+  }
+}
+@media screen and (min-width:800px){
+  .icon {
+    height: 20px;
+  }
+}
+@media screen and (max-width:800px){
+  .icon {
+    height: 15px;
+
   }
 }
