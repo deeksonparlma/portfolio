@@ -237,3 +237,17 @@
 a:hover{
   color:#DF4AF9;
 }
+@media screen and (min-width:800px){
+  #footer {
+    font-size:20px;
+    height: 90px;
+    background-color: #2F3432;
+  }
+}
+@media screen and (max-width:800px){
+  #footer {
+    height: 70px;
+    font-size:15px;
+    background-color: #2F3432;
+  }
+}
