@@ -7,90 +7,176 @@
   width: 100%;
   opacity: 0.8;
 }
-}
-@media screen  and (min-width:800px){
-  #top{
-  background-color: #5D6D7E;
-  height:50px;
-  border-radius: 20px;
-  position: sticky;
-  width: 100%;
-}
-}
-@media screen  and (max-width:800px){
-  #top>ul>li{
-    display: block;
-    padding-left: 50px;
+#top>ul>li{
+  display: block;
+  padding-left: 50px;
   }
-}
-@media screen  and (min-width:800px){
-  #top>ul>li{
-    display: inline-block;
-    padding-top: 9px;
-    padding-left: 200px;
+  #top>ul >li{
+    padding-left:90px;
+    padding-right: 40px;
+    opacity: 0.6;
   }
-}
-.link {
-  text-decoration: none;
-  color:#D0D3D4;
-}
-@media screen and (max-width:800){
-#top>ul >li{
-  padding-left:90px;
-  padding-right: 40px;
-  opacity: 0.6;
-}
-}
-@media screen and (min-width:800){
-#top>ul>li {
-  padding-left: 350px;
-  opacity: 0.6;
-  padding-right: 30px;
-}
-}
-@media screen and (max-width:800px){
   #navbar{
     background-image: url("https://bigboomdesign.com/wp-content/uploads/ClientPortfolioBackground1.jpg");
     height:250px;
     width: 100%;
   }
+  .profile {
+    border-radius: 100px;
+    height:100px;
+  }
+  #projects>center>h3 {
+    font-size: 20px;
+    color: #F8F9F9;
+    padding-top: 7px;
+  }
+  #columns {
+      display: flex;
+      padding-left: 20px
+    }
+    .cl {
+      width:200px;
+      background-color: #ffffff;
+      opacity: 0.5;
+      padding-left: 23px;
+      height: 150px;
+      font-size: 13px;
+    }
+    .skill {
+      width:200px;
+      background-color: #D4E6F1;
+      opacity: 0.5;
+      padding-left: 23px;
+      height: 150px;
+      font-size: 13px;
+    }
+    .one {
+      background-color: #AED6F1;
+      height: 80px;
+      width: 350px;
+      padding-left: 10px;
+      font-size: 13px;
+    }
+    .two{
+      background-color: #FEF8C3;
+      height: 80px;
+      width: 350px;
+      padding-left: 10px;
+      font-size: 13px;
+    }
+    .three {
+      background-color: #FAE4F3;
+      height: 80px;
+      width: 350px;
+      padding-left: 10px;
+      font-size: 13px;
+    }
+    #footer {
+      height: 70px;
+      font-size:15px;
+      background-color: #2F3432;
+      display: flex;
+    }
+    #footer>p {
+      padding-left:5px;
+      padding-top: 5px;
+      font-size: 12px;
+    }
+    .icon {
+      height: 15px;
+
+    }
+    .tt{
+      font-size:13px;
+    }
 }
-@media screen and (min-width:800px){
+/* min width */
+
+@media screen  and (min-width:800px){
+
+  #top>ul>li{
+    display: inline-block;
+    padding-top: 9px;
+    padding-left: 200px;
+  }
   #navbar{
     background-image: url("https://bigboomdesign.com/wp-content/uploads/ClientPortfolioBackground1.jpg");
     height:350px;
     width: 100%;
   }
-}
-
-@media screen  and (max-width:800px){
-.profile {
-  border-radius: 100px;
-  height:100px;
-}
-}
-@media screen and (min-width:800px){
-.profile {
-  border-radius: 100px;
-  height:150px;
-}
-}
-@media screen and (max-width:800px){
-  .title{
-    float: right;
-    font-size: 20px;
-    font-family: Pacifico;
-    padding-right: 20px;
+  .profile {
+    border-radius: 100px;
+    height:150px;
   }
-}
-@media screen and (min-width:800px){
   .title{
     float: right;
     font-size: 40px;
     font-family: Pacifico;
     padding-right: 20px;
   }
+  #projects>center>h3 {
+    font-size: 30px;
+    color: #F8F9F9;
+    padding-top: 7px;
+  }
+  #columns {
+    display: flex;
+    padding-left: 200px
+  }
+  .cl {
+    width:350px;
+    background-color: #ffffff;
+    opacity: 0.5;
+    padding-left: 23px;
+    height: 150px;
+  }
+  .skill {
+    width:350px;
+    background-color: #D4E6F1;
+    opacity: 0.5;
+    padding-left: 23px;
+    height: 150px;
+  }
+  .one {
+    background-color: #AED6F1;
+    height: 80px;
+    width: 400px;
+    padding-left: 10px;
+  }
+  .two{
+    background-color: #FEF8C3;
+    height: 80px;
+    width: 400px;
+    padding-left: 10px;
+  }
+  .three {
+    background-color: #FAE4F3;
+    height: 80px;
+    width: 400px;
+    padding-left: 10px;
+  }
+  #footer {
+    font-size:20px;
+    height: 90px;
+    background-color: #2F3432;
+    display: flex;
+  }
+  .icon {
+    height: 20px;
+  }
+  #footer {
+    padding-left: 20px;
+    font-size: 15px;
+  }
+  .tt{
+    font-size:20px;
+  }
 }
+.link {
+  text-decoration: none;
+  color:#D0D3D4;
+}
+
 .details >ol>li>em>a {
   text-decoration: none;
 }
@@ -98,136 +184,18 @@
   background-image: url("https://cdn.suwalls.com/wallpapers/abstract/blue-blurry-shades-51093-1920x1200.jpg");
   height: 300px;
 }
-@media screen and (max-width:800px){
-  #projects>center>h3 {
-    font-size: 20px;
-    color: #F8F9F9;
-    padding-top: 7px;
-  }
-}
-@media screen and (min-width:800px){
-  #projects>center>h3 {
-    font-size: 30px;
-    color: #F8F9F9;
-    padding-top: 7px;
-  }
-}
-@media screen and (max-width:800px){
-#columns {
-    display: flex;
-    padding-left: 20px
-  }
-}
-@media screen and (min-width:800px){
-  #columns {
-    display: flex;
-    padding-left: 200px
-  }
-}
-@media screen and (max-width:800px){
-  .cl {
-    width:200px;
-    background-color: #ffffff;
-    opacity: 0.5;
-    padding-left: 23px;
-    height: 150px;
-    font-size: 13px;
-  }
-}
-@media screen and (min-width:800px){
-  .cl {
-    width:350px;
-    background-color: #ffffff;
-    opacity: 0.5;
-    padding-left: 23px;
-    height: 150px;
-  }
-}
-@media screen and (max-width:800px){
-  .skill {
-    width:200px;
-    background-color: #D4E6F1;
-    opacity: 0.5;
-    padding-left: 23px;
-    height: 150px;
-    font-size: 13px;
-  }
-}
-@media screen and (min-width:800px){
-  .skill {
-    width:350px;
-    background-color: #D4E6F1;
-    opacity: 0.5;
-    padding-left: 23px;
-    height: 150px;
-  }
-}
 
 #aboutme {
   display: flex;
   justify-content: space-around;
   background-color: #B3B6B7;
 }
-@media screen and (min-width:800px){
-  .one {
-    background-color: #AED6F1;
-    height: 80px;
-    width: 400px;
-    padding-left: 10px;
-  }
-}
+
 @media screen and (max-width:800px){
-  .one {
-    background-color: #AED6F1;
-    height: 80px;
-    width: 350px;
-    padding-left: 10px;
-    font-size: 13px;
-  }
+
 }
 @media screen and (min-width:800px){
-  .two{
-    background-color: #FEF8C3;
-    height: 80px;
-    width: 400px;
-    padding-left: 10px;
-  }
-}
-@media screen and (max-width:800px){
-  .two{
-    background-color: #FEF8C3;
-    height: 80px;
-    width: 350px;
-    padding-left: 10px;
-    font-size: 13px;
-  }
-}
-@media screen and (min-width:800px){
-  .three {
-    background-color: #FAE4F3;
-    height: 80px;
-    width: 400px;
-    padding-left: 10px;
-  }
-}
-@media screen and (max-width:800px){
-  .three {
-    background-color: #FAE4F3;
-    height: 80px;
-    width: 350px;
-    padding-left: 10px;
-    font-size: 13px;
-  }
-}
-@media screen and (max-width:800px){
-  .tt{
-    font-size:13px;
-  }
-}
-@media screen and (min-width:800px){
-  .tt{
-    font-size:20px;
-  }
+
 }
 
 .email {
@@ -238,42 +206,20 @@ a:hover{
   color:#DF4AF9;
 }
 @media screen and (min-width:800px){
-  #footer {
-    font-size:20px;
-    height: 90px;
-    background-color: #2F3432;
-    display: flex;
-  }
-}
-@media screen and (max-width:800px){
-  #footer {
-    height: 70px;
-    font-size:15px;
-    background-color: #2F3432;
-    display: flex;
-  }
-}
-@media screen and (min-width:800px){
-  .icon {
-    height: 20px;
-  }
-}
-@media screen and (max-width:800px){
-  .icon {
-    height: 15px;
 
-  }
 }
 @media screen and (max-width:800px){
-  #footer>p {
-    padding-left:5px;
-    padding-top: 5px;
-    font-size: 12px;
-  }
+
 }
 @media screen and (min-width:800px){
-  #footer {
-    padding-left: 20px;
-    font-size: 15px;
-  }
+
+}
+@media screen and (max-width:800px){
+
+}
+@media screen and (max-width:800px){
+
+}
+@media screen and (min-width:800px){
+
 }
